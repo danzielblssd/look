@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin-top: auto;
+    background: rgb(39,133,255);
+    background: linear-gradient(90deg, rgb(70, 70, 70) 0%, rgba(185, 185, 185, 0.858) 50%, rgb(70, 70, 70) 100%);}
+
+.container{
+
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    height: 1000px;
+    
+
+}
+
+.tabscont{
+    border-radius: 5px 5px 0px 0px;
+    max-width: 950px;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    opacity: .80;
+
+
+    
+}
+
+#home,#about,#contact{
+    background: black;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#header1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: black;
+    opacity: .80;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+
+.fistInfoCont{
+
+    height: 700px;
+
+}
+
+.firstInfo{
+    padding: 5px;
+    background-image: url(teeth-4818711_1920.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    min-width: 300px;
+    min-height: 200px;
+    height: 550px;
+    border-radius: 5px;
+    animation: moving 2s infinite linear alternate;
+    
+
+
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------- */
+#text2{
+    color: white;
+    font-size: 2.3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: .7;
+    padding-left: 8px;
+    padding-right: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 450px;
+    animation: moving 2s infinite linear alternate;
+
+}
+
+
+
+@keyframes moving {
+    from {
+      transform: translateX(1%);
+      right: 1%;
+      }
+    to {
+      transform: translateX(0%);
+      right: 0%;
+      }
+}
+
+hr{
+    height:1px;
+    border-width:0;
+    color:black;
+    background-color:black;
+    opacity: .7;
+    
+}
+
+img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+
+
+
+}
+
+/* ------------------------------------------------------------- */
+.servcont{
+    width: 100%;
+    margin-top: 100px;
+}
+.serv{
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: center;
+    border-radius: 5px;
+    opacity: .85;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+
+
+}
+.HdOp1,.HdOp2,.HdOp3{
+    flex: 1 1 150px; /*stretching */
+    margin: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background: black;
+    border-radius: 7px;
+}
+
+
+p{
+    font-size:  18px;
+    background: black;
+    opacity: .80;
+    padding: 5px;
+}
+
+.footer{
+
+    border-radius: 5px;
+    opacity: .80;
+}
+#footertxt{
+    color: white;
+    margin: 5px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+#tmark{
+    color: black;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 7px;
+}
