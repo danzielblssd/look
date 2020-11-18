@@ -148,7 +148,7 @@ img{
 
 }
 .HdOp1,.HdOp2,.HdOp3{
-    flex: 1 1 150px; /*stretching */
+    flex: 1 1 300px; /*stretching */
     margin: 5px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
